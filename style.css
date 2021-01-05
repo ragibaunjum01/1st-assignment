@@ -1,0 +1,96 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.upper-section{
+    background-color: rgb(245, 235, 235);
+}
+.about-section{
+    background-color: rgb(245, 235, 235);
+}
+.second-mid-sec{
+    background-color: rgb(206, 202, 202);
+    height: 600px;
+    padding: 15px;
+}
+h1{
+    font-weight: 800px;
+}
+h1.name-color{
+    color: coral;
+}
+h2{
+    font-weight: bold;
+    color: coral;
+}
+h2.latest{
+    color: grey;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(70, 65, 65);
+}
+.half-width{
+    width: 40%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.three-part{
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+    box-shadow: 10px 10px 10px 10px  darkgray;
+    border-radius: 5px;
+}
+.three-part img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-weight: 700px;
+}
+span{
+    color: coral;
+}
+.second-last img{
+    height: 100%;
+    width: 60%;
+}
+.second-last{
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    height: 100px;
+}
+.left{
+    position: absolute;
+    top: 15px;
+    bottom: 4px;
+    left: 300px;
+    color: white;
+    font-weight: 900;
+}
+.right{
+    position: absolute;
+    top: 40px;
+    bottom: 4px;
+    right: 300px; 
+}
+
+
