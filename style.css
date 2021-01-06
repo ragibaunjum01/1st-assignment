@@ -7,7 +7,7 @@ section{
     padding-bottom: 150px;
 }
 .upper-section{
-    background-color: rgb(245, 235, 235);
+    background-color: rgb(238, 236, 236);
 }
 .about-section{
     background-color: rgb(245, 235, 235);
@@ -60,7 +60,7 @@ p{
 .button{
     text-decoration: none;
     color: white;
-    background-color: coral;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     padding: 5px 8px;
     border-radius: 3px;
     font-weight: 700px;
@@ -68,29 +68,64 @@ p{
 span{
     color: coral;
 }
-.second-last img{
-    height: 100%;
-    width: 60%;
-}
-.second-last{
-    margin-top: 100px;
-    position: relative;
-    text-align: center;
+.last-section{
     height: 100px;
+    padding-top: 100px; 
+}   
+.blue-back{
+    background-image: url("images/Group_33094_1.png");
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70%;
+    margin: auto;
+    padding: 40px 60px 40px 60px;  
+} 
+.button-float{
+    float: left;
+
 }
-.left{
-    position: absolute;
-    top: 15px;
-    bottom: 4px;
-    left: 300px;
+#work{
     color: white;
-    font-weight: 900;
+    padding-left: 80px;
+    margin-bottom: 20px;
+    
 }
-.right{
-    position: absolute;
-    top: 40px;
-    bottom: 4px;
-    right: 300px; 
+#chat{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+#about{
+    margin-top: 100px;
+}
+#skills{
+    text-align: center;
+    color: rgb(2, 1, 1);
+}
+.progress{
+    height: 30px;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgb(224, 224, 238);
+    margin-bottom: 30px;
+}
+.bar{
+    height: 30px;
+    border-radius: 15px;
+    background-image: linear-gradient(45deg,violet, rgb(72, 72, 170));
+}
+.html{
+    width: 75%;
+}
+.css{
+    width: 40%;
+}
+.python{
+    width: 30%;
+}
+.bonus-sec{
+    background-color: rgb(102, 93, 93);
+    height: 200px;
 }
 
 
